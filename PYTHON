@@ -1,0 +1,11 @@
+vards = input("Ievadiet savu vārdu : ")
+
+print('Sveiki '+ vards)
+
+dzimsanas_gads =input('Ievadiet savu dzimšanas gadu : ')
+
+from datetime import date
+
+vecums = date.today()
+
+print("Jūsu vecums ir :", vecums.year - int(dzimsanas_gads))
